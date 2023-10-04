@@ -1,0 +1,123 @@
+.footer {
+  color: white;
+  text-align: center;
+  background-color: #333;
+  padding: 20px 0; 
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px; 
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.footer-country,
+.footer-text {
+  text-align: center; 
+  margin: 10px 0; 
+}
+
+.footer-text {
+  font-size: 12px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center; 
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+/* Currency Selector Styles */
+
+.currency-selector {
+  display: flex;
+  flex-direction: column;
+  position: relative; 
+  margin-top: 20px;
+  text-align: left; 
+}
+
+.currency-selector button {
+  color: #fff;
+  background: none; 
+  border: none;
+  cursor: pointer;
+}
+
+.currency-popup {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 100%; 
+  text-align: left;
+}
+
+.currency-selector select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.currency-selector select:hover,
+.currency-selector select:focus {
+  background-color: #ffffffcf;
+}
+
+.currency-selector select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.currency-selector select option:checked {
+  background-color: #ffffff;
+}
+
+.currency-selector select + .font-awesome-icon {
+  margin-top: 10px;
+}
+
+/* Media Query for Mobile Styles */
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-country,
+  .footer-text {
+    margin: 10px 0;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .currency-selector {
+    margin-top: 20px;
+  }
+
+  .currency-popup {
+    top: 60px;
+  }
+
+  .currency-selector select + .font-awesome-icon {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,259 @@
+.main-container {
+  text-align: left;
+  margin: 100px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.overlay-button {
+  position: fixed;
+  width: 130px;
+  height: 50px;
+  font-style: 500;
+  bottom: 20px;
+  left: 20px;
+  z-index: 999;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transform-origin: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.overlay-button:hover {
+  transform: scale(1.1);
+}
+
+.overlay-button:focus {
+  outline: none;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.main-paragraph {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.main-h2 {
+  font-weight: 00;
+}
+
+.main-paragraph-first {
+  letter-spacing: 1.2px;
+}
+
+.main-paragraph-second {
+  font-weight: 300;
+  letter-spacing: 0.6px;
+}
+
+.main-paragraph-third {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 11px;
+  font-weight: 500;
+  padding-bottom: 90px;
+}
+
+.main-paragraph-fourth {
+  font-weight: 300;
+}
+
+.dog-park {
+  padding-bottom: 15px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+.cardContent {
+  padding-top: 50px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.main-paragraph-fifth {
+  font-weight: 300;
+}
+
+h7 {
+  font-weight: 300;
+}
+
+.main-paragraph-sixth {
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 17px;
+  padding-bottom: 50px;
+}
+
+.list li {
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.happy-dog-container {
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.main-airplane-container {
+  width: 500px;
+  height: 350px;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.happy-dog,
+.main-airplane {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+.main-airplane {
+  margin-top: 5px;
+}
+
+.happy-dog {
+  margin-top: 70px;
+}
+
+.main-table-container {
+  padding-top: 80px;
+}
+
+.bordered-table {
+  border-collapse: collapse;
+}
+
+.bordered-table th,
+.bordered-table td {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.bordered-table {
+  border-collapse: collapse;
+}
+
+.bordered-table th {
+  text-align: center;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    margin-top: 60px;
+    width: 90%;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .main-paragraph {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .main-paragraph-first {
+    letter-spacing: 0.5px;
+  }
+
+  .main-paragraph-second {
+    font-weight: 300;
+    letter-spacing: 0.3px;
+  }
+
+  .main-paragraph-third {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  h6 {
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+
+  .main-paragraph-fourth {
+    font-weight: 300;
+  }
+
+  .dog-park {
+    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+  }
+
+  .cardContent {
+    padding-top: 20px;
+    font-weight: 300;
+    padding-bottom: 10px;
+  }
+
+  .main-paragraph-fifth {
+    font-weight: 300;
+  }
+
+  h7 {
+    font-weight: 300;
+  }
+
+  .main-paragraph-sixth {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .list li {
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+
+  .happy-dog-container,
+  .main-airplane-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .happy-dog,
+  .main-airplane {
+    margin-top: 20px;
+  }
+
+  .main-table-container {
+    padding-top: 40px;
+  }
+}
