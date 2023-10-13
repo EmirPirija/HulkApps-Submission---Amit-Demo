@@ -1,6 +1,7 @@
 # HulkApps-Submission---Amit-Demo
 
 #Webpage hosted by Netlify; https://demo-amit-hulk.netlify.app/
+Edit: demo webpage link update
 
 Tech Stack Used:
 -React (version 18.2.0) 
