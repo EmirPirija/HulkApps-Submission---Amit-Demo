@@ -16,7 +16,7 @@ const SubscriptionForm = () => {
     if (email === "") {
       setShowPopup(true);
     } else {
-      // Handle the subscription logic here (e.g., send email to the server)
+      // Handle the subscription logic here (for ex., send email to the server)
       console.log("Subscribed with email: ", email);
       // Assuming the subscription logic is successful, clear the email input and hide the popup.
       setEmail("");
