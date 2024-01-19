@@ -14,7 +14,7 @@ const App = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      setLoading(false); // oading to false when data is loaded
+      setLoading(false);
     }, 2000);
   }, []);
 
